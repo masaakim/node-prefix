@@ -1,4 +1,4 @@
-# node-prefix [![Build Status](https://travis-ci.org/morishitter/node-prefix.svg)](https://travis-ci.org/morishitter/node-prefix)
+# node-prefix
 
 Refer to nodejs configuration prefix and global module install path
 
