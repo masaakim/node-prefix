@@ -1,6 +1,6 @@
 {
   "name": "node-prefix",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Refer to nodejs configuration prefix and global module install path",
   "main": "index.js",
   "scripts": {
