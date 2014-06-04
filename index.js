@@ -5,5 +5,5 @@ var prefix = module.exports.nodePrefix = function () {
 }
 
 module.exports.globalModulePath = function (moduleName) {
-    return prefix + '/node_modules/' + moduleName
-};
+    return prefix() + '/node_modules/' + moduleName
+}
