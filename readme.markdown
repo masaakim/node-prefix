@@ -11,10 +11,12 @@ $ npm install node-prefix
 ## Example
 
 ```javascript
-var prefix = require('node-prefix').nodePrefix()
+var config = require('node-prefix')
+
+var nodePrefix = config.prefix()
 // '/usr/local/lib'
 
-var globalModPath = require('node-prefix').globalmodulePath('moduleName')
+var globalModulePath = config.global('moduleName')
 // '/usr/local/lib/node_modules/moduleName'
 ```
 

@@ -1,7 +1,7 @@
 
 var test = require('colored-tape');
-var prefix = require('..').nodePrefix();
-var globalModPath = require('..').globalModulePath('foo')
+var prefix = require('..').prefix();
+var globalModPath = require('..').global('foo')
 console.log(globalModPath)
 
 test('nodePrefix', function (t) {
