@@ -1,0 +1,21 @@
+{
+  "name": "node-prefix",
+  "version": "0.0.1",
+  "description": "Refer to nodejs configuration prefix and global module install path",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morishitter/node-prefix/git"
+  },
+  "keywords": ["node","config","path","prefix"],
+  "author": "Masaaki Morishita",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "*",
+    "tape": "*"
+  }
+}
