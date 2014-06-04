@@ -10,6 +10,14 @@ $ npm install node-prefix
 
 ## Example
 
+```javascript
+var prefix = require('node-prefix').nodePrefix()
+// '/usr/local/lib'
+
+var globalModPath = require('node-prefix').globalmodulePath('moduleName')
+// '/usr/local/lib/node_modules/moduleName'
+```
+
 ## License
 
 The MIT License (MIT)
